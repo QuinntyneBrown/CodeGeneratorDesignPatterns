@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{990DEE39-8B7E-4B3E-B629-217A686843A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGeneratorDesignPatterns.Core", "src\CodeGeneratorDesignPatterns.Core\CodeGeneratorDesignPatterns.Core.csproj", "{C784CA71-DC8F-4ED3-BB89-B4DD0843B252}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6D196862-2ED9-49FC-993E-D3CEFD0EEEE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGeneratorDesignPatterns.UnitTests", "test\CodeGeneratorDesignPatterns.UnitTests\CodeGeneratorDesignPatterns.UnitTests.csproj", "{9F97868E-24C9-4DDF-BD29-16572EBAF518}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C784CA71-DC8F-4ED3-BB89-B4DD0843B252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C784CA71-DC8F-4ED3-BB89-B4DD0843B252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C784CA71-DC8F-4ED3-BB89-B4DD0843B252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C784CA71-DC8F-4ED3-BB89-B4DD0843B252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F97868E-24C9-4DDF-BD29-16572EBAF518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F97868E-24C9-4DDF-BD29-16572EBAF518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F97868E-24C9-4DDF-BD29-16572EBAF518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F97868E-24C9-4DDF-BD29-16572EBAF518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C784CA71-DC8F-4ED3-BB89-B4DD0843B252} = {990DEE39-8B7E-4B3E-B629-217A686843A6}
+		{9F97868E-24C9-4DDF-BD29-16572EBAF518} = {6D196862-2ED9-49FC-993E-D3CEFD0EEEE7}
+	EndGlobalSection
+EndGlobal
