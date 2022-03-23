@@ -10,7 +10,11 @@ namespace CodeGeneratorDesignPatterns.UnitTests
         [Fact]
         public void Should_Resolve()
         {
-            ClassGenerator.Create(new EntityClassModel() {  IdPropertyName = "Id" }, new ClassGenerationStrategyFactory());
+            var strategyFactory = new ClassGenerationStrategyFactory();
+
+            var model = new EntityClassModel() { IdPropertyName = "Id" };
+
+            ClassGenerator.Create(model, strategyFactory);
         }
     }
 }

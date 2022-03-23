@@ -30,7 +30,7 @@ namespace CodeGeneratorDesignPatterns.Core.Strategies
 
             if (strategy == null)
             {
-                throw new InvalidOperationException("Cannot find a strategy for generation for the type " + model.ClassName);
+                throw new InvalidOperationException("Cannot find a strategy for generation for the type " + model.GetType());
             }
 
             strategy.Create(model);
