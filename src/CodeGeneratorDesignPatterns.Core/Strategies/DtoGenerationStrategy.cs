@@ -6,12 +6,14 @@ namespace CodeGeneratorDesignPatterns.Core.Strategies
     {
         public bool CanHandle(ClassModel model)
         {
-            return model.ClassName.EndsWith("Dto");
+            return model is DtoClassModel;
         }
 
-        public void Create(ClassModel model)
+        public void Create(dynamic model) => Create(model);
+
+        private void Create(DtoClassModel model)
         {
-            
+
         }
     }
 }

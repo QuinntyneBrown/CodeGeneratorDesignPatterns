@@ -6,6 +6,6 @@ namespace CodeGeneratorDesignPatterns.Core.Strategies
     {
         bool CanHandle(ClassModel model);
 
-        void Create(ClassModel model);
+        void Create(dynamic model);
     }
 }

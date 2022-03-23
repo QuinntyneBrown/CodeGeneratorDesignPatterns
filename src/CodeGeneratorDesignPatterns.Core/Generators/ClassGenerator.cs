@@ -7,7 +7,7 @@ namespace CodeGeneratorDesignPatterns.Core.Generators
     {
         public static void Generate(ClassModel model, ClassGenerationStrategyFactory factory)
         {
-
+            factory.CreateFor(model);
         }
     }
 }

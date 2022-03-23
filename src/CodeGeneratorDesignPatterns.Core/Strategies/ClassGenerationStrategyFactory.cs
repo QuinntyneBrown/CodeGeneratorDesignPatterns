@@ -5,10 +5,6 @@ using System.Linq;
 
 namespace CodeGeneratorDesignPatterns.Core.Strategies
 {
-    public interface IClassGenerationStrategyFactory
-    {
-        void CreateFor(ClassModel model);
-    }
 
     public class ClassGenerationStrategyFactory: IClassGenerationStrategyFactory
     {
@@ -18,7 +14,7 @@ namespace CodeGeneratorDesignPatterns.Core.Strategies
         {
             _strategies = new List<IClassGenerationStrategy>()
             {
-                new ModelGenerationStrategy(),
+                new EntityGenerationStrategy(),
                 new DtoGenerationStrategy()
             };
         }
